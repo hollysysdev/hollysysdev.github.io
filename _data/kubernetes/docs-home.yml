@@ -1,0 +1,22 @@
+bigheader: "kubernetes Documentation"
+abstract: "Documentation for using kubernetes Platform."
+toc:
+- title: kubernetes
+  path: /docs/kubernetes/
+- title: 微服务
+  path: /docs/kubernetes/k8s-springcloud/
+- title: 存储-Rook
+  path: /docs/kubernetes/k8s-rook/
+- title: 安装部署
+  new: true
+  section:
+  - title: k8s安装 
+    path: /docs/kubernetes/install/k8s-kubernetes/
+  - title: k8s集群安装
+    path: /docs/kubernetes/install/k8s-kubernetes(ha)/
+  - title: 重要组件
+    section:
+      - title: 中间件
+        path: /docs/kubernetes/install/midware/k8s-midware/
+      - title: k8s组件
+        path: /docs/kubernetes/install/midware/k8s-kubernetes-module/
